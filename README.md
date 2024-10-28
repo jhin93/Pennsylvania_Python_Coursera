@@ -57,6 +57,7 @@ print(eee)
 # hello there
 
 print(eee+1)
+# result
 Traceback (most recent call last):
   File "/Users/kimjinkyeong/Desktop/python/py4e/hello.py", line 2, in <module>
     print(eee + 1)
@@ -77,4 +78,23 @@ print(type(f))
 
 print(float(99) + 100)
 # 199.0
+```
+
+### String Conversion
+int(), float()
+```python
+sval = '123'
+# convert
+ival = int(sval)
+print(ival + 1)
+# 124
+
+nsv = 'hello'
+niv = int(nsv)
+# result
+Traceback (most recent call last):
+  File "/Users/kimjinkyeong/Desktop/python/py4e/hello.py", line 8, in <module>
+    niv = int(nsv)
+          ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'hello'
 ```
