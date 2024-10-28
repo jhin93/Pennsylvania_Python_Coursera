@@ -47,3 +47,17 @@ y = 1*2+(2**3)
 print(y)
 #10
 ```
+
+### Type Matters
+```python
+eee = 'hello ' + 'there'
+print(eee)
+# hello there
+
+print(eee+1)
+Traceback (most recent call last):
+  File "/Users/kimjinkyeong/Desktop/python/py4e/hello.py", line 2, in <module>
+    print(eee + 1)
+          ~~~~^~~
+TypeError: can only concatenate str (not "int") to str
+```
