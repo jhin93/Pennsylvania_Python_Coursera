@@ -1,11 +1,8 @@
+sval = '123'
+# convert
+ival = int(sval)
+print(ival + 1)
+# 124
 
-i = 42
-print(type(i))
-# <class 'int'>
-
-f = float(i)
-print(type(f))
-# <class 'float'>
-
-print(float(99) + 100)
-# 199.0
+nsv = 'hello'
+niv = int(nsv)
