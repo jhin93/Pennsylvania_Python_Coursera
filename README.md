@@ -49,6 +49,8 @@ print(y)
 ```
 
 ### Type Matters
+
+String
 ```python
 eee = 'hello ' + 'there'
 print(eee)
@@ -60,4 +62,19 @@ Traceback (most recent call last):
     print(eee + 1)
           ~~~~^~~
 TypeError: can only concatenate str (not "int") to str
+```
+
+Int, Float
+```python
+
+i = 42
+print(type(i))
+# <class 'int'>
+
+f = float(i)
+print(type(f))
+# <class 'float'>
+
+print(float(99) + 100)
+# 199.0
 ```

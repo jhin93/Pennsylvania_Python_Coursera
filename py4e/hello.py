@@ -1,8 +1,11 @@
-eee = 'hello ' + 'there'
-xx = 1
-temp = 98.6
 
-print(type(xx))
-print(type(temp))
+i = 42
+print(type(i))
 # <class 'int'>
+
+f = float(i)
+print(type(f))
 # <class 'float'>
+
+print(float(99) + 100)
+# 199.0
