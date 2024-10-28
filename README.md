@@ -30,3 +30,20 @@ print('fin')
 # 1
 # fin
 ```
+
+### Operator Precedence Rules
+
+1. Parenthesis
+2. Power(Exponentation)
+3. Multiplication, Division, Remainder
+4. Addition, Subtraction
+5. Left to right
+```python
+x = 1+2**3/4*5
+print(x)
+# 1
+
+y = 1*2+(2**3)
+print(y)
+#10
+```
