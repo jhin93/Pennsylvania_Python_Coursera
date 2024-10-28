@@ -98,3 +98,12 @@ Traceback (most recent call last):
           ^^^^^^^^
 ValueError: invalid literal for int() with base 10: 'hello'
 ```
+
+### Input Function
+```python
+nam = input('Who are you? ')
+print('Welcome', nam)
+# result
+# Who are you? jin
+# Welcome jin
+```

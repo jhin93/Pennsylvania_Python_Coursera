@@ -1,8 +1,5 @@
-sval = '123'
-# convert
-ival = int(sval)
-print(ival + 1)
-# 124
-
-nsv = 'hello'
-niv = int(nsv)
+nam = input('Who are you? ')
+print('Welcome', nam)
+# result
+# Who are you? jin
+# Welcome jin
