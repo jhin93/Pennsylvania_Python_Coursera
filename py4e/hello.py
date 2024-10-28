@@ -1,3 +1,4 @@
 eee = 'hello ' + 'there'
-print(eee + 1)
-# hello there
+
+print(type(eee))
+# <class 'str'>
