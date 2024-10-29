@@ -1,5 +1,4 @@
-nam = input('Who are you? ')
-print('Welcome', nam)
-# result
-# Who are you? jin
-# Welcome jin
+# Convert elevator floors
+inp = input('Europe floor? : ')
+usf = int(inp) + 1
+print('US floor : ', usf)
