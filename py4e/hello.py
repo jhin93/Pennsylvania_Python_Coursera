@@ -1,4 +1,3 @@
-# Convert elevator floors
-inp = input('Europe floor? : ')
-usf = int(inp) + 1
-print('US floor : ', usf)
+x = int(98.9)
+print(x)
+# 98
