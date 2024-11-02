@@ -115,9 +115,9 @@ x = 5
 if x < 10:
   print('Smaller')
 if x > 20:
-  print('Bigger')
+  print('Bigger') # conditional code
 
-print('Fins')
+print('Fins') # sequential code
 ```
 
 ### Comparison Operator
@@ -136,4 +136,13 @@ if x != 6:
     print('Not equal 6')
 
 print('Fins')
+
+# Nested
+for i in range(5) : 
+    print(i)
+    if i > 2 :
+        print('Bigger than 2') # Nested. Block within a block
+    print('Done with i', i)
+print('All Done')
 ```
+
