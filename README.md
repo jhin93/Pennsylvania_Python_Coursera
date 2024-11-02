@@ -204,4 +204,17 @@ print('Second', istr)
 
 # First -1
 # Second 123
+
+# try block stop when it wrong and go to except block
+astr = 'Bob'
+try:
+  print('Hello')
+  istr = int(astr)
+  print('There')
+except:
+  istr = -1
+
+print('Done', istr)
+# Hello
+# Done -1
 ```
