@@ -1,9 +1,10 @@
-astr = 'Bob'
+rawstr = input('Enter a number:')
 try:
-  print('Hello')
-  istr = int(astr)
-  print('There')
+  ival = int(rawstr)
 except:
-  istr = -1
+  ival = -1
 
-print('Done', istr)
+if ival > 0 : 
+  print('Nice work')
+else : 
+  print('Not a number')
