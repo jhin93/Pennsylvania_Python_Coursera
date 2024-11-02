@@ -145,4 +145,14 @@ for i in range(5) :
     print('Done with i', i)
 print('All Done')
 ```
+### Two way decisions
+```python
+x = 4
 
+if x > 2 : 
+  print('Bigger')
+else : 
+  print('Smaller')
+
+print ('All done')
+```
