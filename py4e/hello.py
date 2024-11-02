@@ -1,8 +1,8 @@
-x = 4
-
-if x > 2 : 
-  print('Bigger')
+x = 1
+if x < 2:
+  print('small')
+elif x < 10:
+  print('Medium')
 else : 
-  print('Smaller')
-
-print ('All done')
+  print('Large')
+print('All done')
