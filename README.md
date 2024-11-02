@@ -170,7 +170,23 @@ else :
 print('All done')
 ```
 
-### Try and exception
+### Try and exception(prevent traceback)
+<!-- Traceback -->
+```python
+astr = 'Hello Bob'
+istr = int(astr)
+print('test')
+
+Traceback (most recent call last): # Traceback
+  File "/Users/kimjinkyeong/Desktop/python/py4e/hello.py", line 2, in <module>
+    istr = int(astr)
+           ^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Hello Bob'
+
+# Traceback quit the program where it mal-function
+```
+
+<!-- Try and Except -->
 ```python
 astr = 'Hello Bob'
 try:
