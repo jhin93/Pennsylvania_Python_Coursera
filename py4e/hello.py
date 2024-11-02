@@ -1,8 +1,13 @@
-x = 1
-if x < 2:
-  print('small')
-elif x < 10:
-  print('Medium')
-else : 
-  print('Large')
-print('All done')
+astr = 'Hello Bob'
+try:
+  istr = int(astr)
+except:
+  istr = -1
+print('First', istr)
+
+astr = '123'
+try:
+  istr = int(astr)
+except:
+  istr = -1
+print('Second', istr)

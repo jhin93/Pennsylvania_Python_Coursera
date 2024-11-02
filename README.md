@@ -169,3 +169,23 @@ else :
   print('Large')
 print('All done')
 ```
+
+### Try and exception
+```python
+astr = 'Hello Bob'
+try:
+  istr = int(astr)
+except:
+  istr = -1
+print('First', istr)
+
+astr = '123'
+try:
+  istr = int(astr)
+except:
+  istr = -1
+print('Second', istr)
+
+# First -1
+# Second 123
+```
