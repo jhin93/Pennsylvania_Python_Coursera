@@ -1,7 +1,5 @@
-def thing():
-    print('Hello')
-    print('Fun')
+big = max([10,9,8,7])
+print(big)
 
-thing()
-print('Zip')
-thing()
+tiny = min([10,9,8,7])
+print(tiny)

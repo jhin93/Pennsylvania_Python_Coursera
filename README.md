@@ -242,3 +242,13 @@ thing()
 print('Zip')
 thing()
 ```
+<!-- Max & Min -->
+```python
+big = max([10,9,8,7])
+print(big)
+
+tiny = min([10,9,8,7])
+print(tiny)
+# 10
+# 7
+```
