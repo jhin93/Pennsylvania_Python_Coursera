@@ -230,3 +230,15 @@ if ival > 0 :
 else : 
   print('Not a number')
 ```
+
+### Stored (and reused) Steps
+<!-- Using Functions -->
+```python
+def thing():
+    print('Hello')
+    print('Fun')
+
+thing()
+print('Zip')
+thing()
+```
