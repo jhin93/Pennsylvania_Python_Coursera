@@ -358,3 +358,22 @@ print('After', largest_so_far)
 # After 74
 ```
 
+### Loop idioms
+```python
+# Counting in a Loop
+zork = 0
+print('Before', zork)
+for thing in [9, 41, 23, 12, 5, 52, 15] :
+  zork = zork + 1
+  print(zork, thing)
+print('After', zork)
+# Before 0
+# 1 9
+# 2 41
+# 3 23
+# 4 12
+# 5 5
+# 6 52
+# 7 15
+# After 7
+```
