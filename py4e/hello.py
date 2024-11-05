@@ -1,6 +1,7 @@
-zork = 0
-print('Before', zork)
-for thing in [9, 41, 12, 3, 74, 15] :
-  zork = zork + thing
-  print(zork, thing)
-print('After', zork)
+found = False
+print('Before', found)
+for value in [9, 41, 12, 3, 74, 15] :
+  if value == 3 :
+    found = True
+  print(found, value)
+print('After', found)
