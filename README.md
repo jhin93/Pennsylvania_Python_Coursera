@@ -269,6 +269,7 @@ greet('fr') # Boungjour
 
 ### Loops and iteration
 ```python
+# While loop
 n = 5
 while n > 0 :
   print(n)
@@ -282,4 +283,19 @@ print(n)
 # 1
 # Blastoff!
 # 0
+
+# Breaking Out of a Loop
+
+while True:
+  line = input('> ')
+  if line == 'done' :
+    break
+  print(line)
+print('Done!')
+# > ef
+# ef
+# > ae
+# ae
+# > done
+# Done!
 ```
