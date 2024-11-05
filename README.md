@@ -430,3 +430,20 @@ print('After', smallest)
 # 9 15
 # After 9
 ```
+
+### is, is, ==, != not operator
+
+```python
+a = [1, 2, 3]
+b = [1, 2, 3]
+c = a
+
+# 비교
+print(a == b)       # True - 값이 같음
+print(a is b)       # False - 서로 다른 객체임
+
+print(a != b)       # False - 값이 같기 때문에 False
+print(a is not b)   # True - a와 b가 같은 객체가 아님
+
+print(a is c)       # True - a와 c는 같은 객체를 가리킴
+```
