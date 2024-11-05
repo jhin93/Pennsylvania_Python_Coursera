@@ -285,7 +285,6 @@ print(n)
 # 0
 
 # Breaking Out of a Loop
-
 while True:
   line = input('> ')
   if line == 'done' :
@@ -296,6 +295,25 @@ print('Done!')
 # ef
 # > ae
 # ae
+# > done
+# Done!
+
+# Finishing an Iteration with Continue
+while True:
+  line = input('> ')
+  if line[0] == '#' :
+    continue # Ignoring the line which starts with '#'
+  if line == 'done' :
+    break
+  print(line)
+print('Done!')
+# > ej
+# ej
+# > it
+# it
+# > #test
+# > aj
+# aj
 # > done
 # Done!
 ```
