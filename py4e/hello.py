@@ -1,7 +1,9 @@
-found = False
-print('Before', found)
-for value in [9, 41, 12, 3, 74, 15] :
-  if value == 3 :
-    found = True
-  print(found, value)
-print('After', found)
+smallest = None
+print('Before', smallest)
+for value in [41, 9, 23, 37, 74, 15] :
+  if smallest is None :
+    smallest = value
+  elif value < smallest:
+    smallest = value
+  print(smallest, value)
+print('After', smallest)
