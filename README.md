@@ -339,3 +339,22 @@ print('Done!')
 # Happy New Year: Sally
 # Done!
 ```
+### Finding the Largest Value
+```python
+largest_so_far = -1
+print('Before', largest_so_far)
+for the_num in [9, 41, 23, 37, 74, 15] :
+  if the_num > largest_so_far :
+    largest_so_far = the_num
+  print(largest_so_far, the_num)
+print('After', largest_so_far)
+# Before -1
+# 9 9
+# 41 41
+# 41 23
+# 41 37
+# 74 74
+# 74 15
+# After 74
+```
+
