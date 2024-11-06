@@ -447,3 +447,48 @@ print(a is not b)   # True - a와 b가 같은 객체가 아님
 
 print(a is c)       # True - a와 c는 같은 객체를 가리킴
 ```
+
+### Strings
+```python
+fruit = 'banana'
+index = 0
+letter = fruit[1]
+print(letter)
+# a
+print(len(fruit))
+# 6
+while index < len(fruit):
+  letter = fruit[index]
+  print(index, letter)
+  index = index + 1
+
+word = 'banana'
+count = 0
+for letter in word:
+  if letter == 'a'
+    count = count + 1
+print(count)
+# 3
+
+# 'for in' method
+for letter in fruit:
+  print(letter)
+
+
+# while method
+index = 0
+while index < len(fruit):
+  letter = fruit[index]
+  print(letter)
+  index = index + 1
+
+zot = 'abc'
+print(zot[5])
+# Index Error
+
+# Slicing Strings
+s = 'Monty Python'
+print(s[0:4]) # Mont
+print(s[6:7]) # P
+print(s[6:20]) # Python
+```
