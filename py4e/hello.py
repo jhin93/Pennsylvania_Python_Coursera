@@ -1,4 +1,4 @@
-s = 'Monty Python'
-print(s[0:4])
-print(s[6:7])
-print(s[6:20])
+greet = '    Hello Bob    '
+print(greet.lstrip())
+print(greet.rstrip())
+print(greet.strip())

@@ -492,3 +492,38 @@ print(s[0:4]) # Mont
 print(s[6:7]) # P
 print(s[6:20]) # Python
 ```
+
+### Manipulating Strings
+```python
+fruit = 'banana'
+'n' in fruit # True
+'m' in fruit # False
+'nan' in fruit # True
+if 'a' in fruit:
+  print('Found it') # Found it
+
+greet = 'Hello Bob'
+zap = greet.lower()
+print(zap) # hello bob
+print(greet) # Hello Bob
+
+fruit = 'banana'
+pos = fruit.find('na')
+print(pos) # 2
+aa = fruit.find('z')
+print(aa) # -1
+
+# Search and Replace
+greet = 'Hello Bob'
+nstr = greet.replace('Bob', 'Jane')
+print(nstr) # Hello Jane
+nstr = greet.replace('o', 'x')
+print(nstr) # Hellx Bxb
+
+# Stripping Whitespace
+greet = '    Hello Bob    '
+greet.lstrip() # 'Hello Bob    '
+greet.rstrip() # '    Hello Bob'
+greet.strip() # 'Hello Bob'
+
+```
