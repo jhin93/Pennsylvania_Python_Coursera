@@ -526,4 +526,16 @@ greet.lstrip() # 'Hello Bob    '
 greet.rstrip() # '    Hello Bob'
 greet.strip() # 'Hello Bob'
 
+# Prefixes
+line = 'Please have a nice day'
+line.startswith('Please') # True
+line.startswith('p') # False
+print(line.startswith('P')) # True
+
+#Parsing and Extracting
+data = 'From david@uct.ac.za Sat Jan 5 09:14'
+atpos = data.find('@') # 21
+sppos = data.find(' ', atpos) # 31. find index of blank after atpos
+host = data[atpos+1 : sppos]
+print(host) # uct.ac.za
 ```
