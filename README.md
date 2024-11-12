@@ -574,3 +574,13 @@ for line in fhand:
 print('Line Count:', count)
 # ex) 132045
 ```
+
+### Counting Lines in a File
+```python
+fhand = open('mbox-short.txt')
+inp = fhand.read()
+print(len(inp))
+# 94626
+print(inp[:20])
+# for stephen.marquar
+```
