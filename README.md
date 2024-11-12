@@ -591,8 +591,38 @@ fhand = open('mbox.txt')
 for line in fhand:
   if line.startswith('From:') : 
     print(line)
+
+# when the prints come out, file add newline(\n) at the end of the line, and added one more line by print() statement
 ```
 
+### Searching Through a File(fixed)
+```python
+fhand = open('mbox.txt')
+for line in fhand:
+  line = line.rstrip() # wipe the newline
+  if line.startswith('From:') : 
+    print(line)
+```
+
+### Skipping with Continueee
+```python
+fhand = open('mbo-short.txt')
+for line in fhand:
+  line = line.rstrip() 
+  if line.startswith('From:') : 
+    continued
+    print(line)
+```
+
+### Using in to Select lines
+```python
+fhand = open('mbox-short.txt')
+for line in fhand:
+  line = line.rstrip()
+  if not '@act.uc.za' in line :
+    continue
+  print(line)
+```
 
 
 
