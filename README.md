@@ -539,3 +539,21 @@ sppos = data.find(' ', atpos) # 31. find index of blank after atpos
 host = data[atpos+1 : sppos]
 print(host) # uct.ac.za
 ```
+
+### Using open()
+```python
+handle = open(filename, mode)
+# returns a handle use to manipulate the file
+fhand = open('mbox.txt', 'r')
+print(fhand)
+```
+
+### The newline Character
+```python
+stuff = 'Hello\nWorld!'
+print(stuff)
+# Hello
+# World!
+print(len(stuff))
+# 12. Newline is one character
+```
