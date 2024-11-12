@@ -557,3 +557,20 @@ print(stuff)
 print(len(stuff))
 # 12. Newline is one character
 ```
+
+### The newline Character
+```python
+xfile = open('mbox.txt')
+for cheese in xfile:
+  print(cheese)
+```
+
+### Counting Lines in a File
+```python
+fhand = open('mbox.txt')
+count = 0
+for line in fhand:
+  count = count + 1
+print('Line Count:', count)
+# ex) 132045
+```
