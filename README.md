@@ -604,7 +604,7 @@ for line in fhand:
     print(line)
 ```
 
-### Skipping with Continueee
+### Skipping with Continue
 ```python
 fhand = open('mbo-short.txt')
 for line in fhand:
@@ -624,5 +624,21 @@ for line in fhand:
   print(line)
 ```
 
+### Upper case
+```python
+fname = input("Enter file name: ")
+fh = open(fname)
+for line in fh:
+    line = line.rstrip()
+    UpLine = line.upper()
+    print(UpLine)
+```
 
+### partition()
+```python
+text = "test = 0.23"
+_, _, number = text.partition("=")
+number = number.strip()  # 공백 제거
+print(number)  # 출력: "0.23"
 
+```
