@@ -584,3 +584,15 @@ print(len(inp))
 print(inp[:20])
 # for stephen.marquar
 ```
+
+### Searching Through a File
+```python
+fhand = open('mbox.txt')
+for line in fhand:
+  if line.startswith('From:') : 
+    print(line)
+```
+
+
+
+
