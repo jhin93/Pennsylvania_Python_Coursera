@@ -680,3 +680,20 @@ print(len(x))
 print(list(len(x)))
 # [0, 1, 2]
 ```
+
+### A Tale of Two Loops
+```python
+friends = ['zoseph', 'glenn', 'george']
+for friend in friends :
+  print("Hello:", friend)
+# Hello: zoseph
+# Hello: glenn
+# Hello: george
+
+for i in range(len(friends)) # counted loop
+  friend = friends[i]
+  print('Happy New Year:', friend)
+# Hello: zoseph
+# Hello: glenn
+# Hello: george
+```
