@@ -642,3 +642,30 @@ number = number.strip()  # 공백 제거
 print(number)  # 출력: "0.23"
 
 ```
+
+### List Constants
+```python
+x = ['zoseph', 'glenn']
+for person in x:
+  print(person)
+# zoseph
+# glenn
+print(x[1])
+# glenn
+```
+
+### Lists Are Mutable
+```python
+fruit = 'Banana'
+fruit[0] = 'b' # Strings are not mutable
+# Traceback (most recent call last):
+#   File "/Users/kimjinkyeong/Desktop/python/py4e/hello.py", line 2, in <module>
+#     fruit[0] = 'b'
+#     ~~~~~^^^
+# TypeError: 'str' object does not support item assignment
+
+lotto = [2, 14, 26, 41, 63]
+lotto[2] = 28
+print(lotto)
+# [2, 14, 28, 41, 63]
+```
