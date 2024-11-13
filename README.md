@@ -724,3 +724,23 @@ stuff.append(99)
 print(stuff)
 # ['book', 99]
 ```
+
+### building a List from Scratch
+```python
+some = [1,2,4,5,6,7]
+print(9 in some)
+# False
+print(9 not in some)
+# True
+print(1 in some)
+# True
+```
+
+### building a List from Scratch
+```python
+friends = ['sally', 'glenn', 'joseph']
+friends.sort()
+print(friends)
+# ['glenn', 'joseph', 'sally']
+```
+
