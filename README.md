@@ -715,3 +715,12 @@ t[3:]
 t[:]
 # [9, 41, 12, 3, 74, 15]
 ```
+
+### building a List from Scratch
+```python
+stuff = list()
+stuff.append('book')
+stuff.append(99)
+print(stuff)
+# ['book', 99]
+```
