@@ -697,3 +697,21 @@ for i in range(len(friends)) # counted loop
 # Hello: glenn
 # Hello: george
 ```
+
+### Concatenate and slicing Lists
+```python
+a = [1,2,3]
+b = [4,5,6]
+c = a + b
+# [1,2,3,4,5,6]
+
+t = [9, 41, 12, 3, 74, 15]
+t[1:3]
+# [41, 12]
+t[:4]
+# [9, 41, 12, 3]
+t[3:]
+# [3, 74, 15]
+t[:]
+# [9, 41, 12, 3, 74, 15]
+```
