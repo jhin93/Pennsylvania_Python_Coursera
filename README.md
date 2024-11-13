@@ -668,4 +668,15 @@ lotto = [2, 14, 26, 41, 63]
 lotto[2] = 28
 print(lotto)
 # [2, 14, 28, 41, 63]
+print(len(lotto))
+# 5
+```
+
+### Using the Range Function
+```python
+x = ['zoseph', 'glenn', 'george']
+print(len(x))
+# 3
+print(list(len(x)))
+# [0, 1, 2]
 ```
