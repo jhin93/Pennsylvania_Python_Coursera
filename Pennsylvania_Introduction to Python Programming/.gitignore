@@ -168,5 +168,3 @@ data/*
 
 # Ignore all files in the 'data' directory
 data/*
-
-test from pycharm
