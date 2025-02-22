@@ -162,6 +162,7 @@ cython_debug/
 #.idea/
 
 .DS_Store
+.idea/workspace.xml
 
 # Ignore all files in the 'data' directory
 data/*
