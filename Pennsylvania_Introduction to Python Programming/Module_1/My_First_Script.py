@@ -1,15 +1,14 @@
+grade = input("What is your grade? : ")
+grade = int(grade)
 
-bill = float(input("How much is the meal?"))
-tax = float(input("What is the sales tax(in %)?"))
-tip = float(input("How much tip do you want to give(in %)?"))
-
-tax_amount = (bill * tax) / 100
-total = bill + tax_amount
-tip_amount = (total * tip) / 100
-
-total = total + tip_amount
-
-#round the total to 2 decimal places
-total = round(total, 2)
-
-print("The total bill is $", total, sep = '')
+if grade >= 90:
+    print("A")
+elif grade >= 80:
+    print("B")
+elif grade >= 70:
+    print("C")
+elif grade >= 60:
+    print("D")
+else:
+    print("F")
+    
