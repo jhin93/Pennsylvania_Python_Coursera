@@ -1,17 +1,17 @@
+def numeric_to_letter_grade():
+    grade = input("What is your grade? : ")
+    grade = int(grade)
 
-a = 2
-print(a)
+    if grade >= 90:
+        print("A")
+    elif grade >= 80:
+        print("B")
+    elif grade >= 70:
+        print("C")
+    elif grade >= 60:
+        print("D")
+    else:
+        print("F")
+        
 
-b = 3
-print(b)
-
-age = input("enter your age: ")
-age = int(age)
-print("You are an adult: ", age > 26)
-
-age = input("Enter your age: ")
-try:
-    age = int(age)
-    print('How old will you be in 1 year? ', age + 1)
-except ValueError:
-    print("The given age is not valid")
+numeric_to_letter_grade()
