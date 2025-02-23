@@ -164,6 +164,3 @@ cython_debug/
 
 # Ignore all files in the 'data' directory
 data/*
-
-# Ignore all files in the 'data' directory
-data/*
