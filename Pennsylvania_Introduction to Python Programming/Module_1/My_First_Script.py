@@ -1,7 +1,4 @@
-def numeric_to_letter_grade():
-    grade = input("What is your grade? : ")
-    grade = int(grade)
-
+def numeric_to_letter_grade(grade):
     if grade >= 90:
         print("A")
     elif grade >= 80:
@@ -14,4 +11,4 @@ def numeric_to_letter_grade():
         print("F")
         
 
-numeric_to_letter_grade()
+numeric_to_letter_grade(87)
