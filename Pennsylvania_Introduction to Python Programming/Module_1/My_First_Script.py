@@ -11,4 +11,6 @@ def numeric_to_letter_grade(grade):
         print("F")
         
 
-numeric_to_letter_grade(87)
+grade = input('Enter a numeric grade: ')
+grade = int(grade)
+numeric_to_letter_grade(grade)
