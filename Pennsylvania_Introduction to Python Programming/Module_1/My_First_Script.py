@@ -23,3 +23,8 @@ y *= 2
 print(x) #84
 print(y) #'4242'
 
+fav_movie = "The Dark Knight"
+fav_singer = "Ed Sheeran"
+
+faves = "Your favorite movie is " + fav_movie + " and your favorite singer is " + fav_singer + "."
+print(faves)
