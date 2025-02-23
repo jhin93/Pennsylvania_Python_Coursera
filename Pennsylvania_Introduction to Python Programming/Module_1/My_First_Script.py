@@ -1,8 +1,4 @@
-#Here are my print statement
-fav_movie = input("What is your favorite movie?")
-fav_singer = input("Who is your favorite singer?")
+age = int(input("How old are you?"))
+print(type(age))
 
-faves = "Your favorite movie is {} and your favorite singer is {} ".format(fav_movie, fav_singer)
-print(faves)
-
-
+print(age + 3)
