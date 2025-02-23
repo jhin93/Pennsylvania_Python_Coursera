@@ -1,30 +1,8 @@
 #Here are my print statement
+fav_movie = input("What is your favorite movie?")
+fav_singer = input("Who is your favorite singer?")
 
-x = y = 10
-z = 2 * x + y
-print(z)
-
-#Here's a single line comment
-
-"""here's a
-multi-line comment"""
-
-z = z ** (y - 1)
-print(z)
-
-b = 15 < (x / 2) < 25
-print(b)
-print(type(b))
-
-x = 42
-y = str(x)
-x *= 2
-y *= 2
-print(x) #84
-print(y) #'4242'
-
-fav_movie = "The Dark Knight"
-fav_singer = "Ed Sheeran"
-
-faves = "Your favorite movie is " + fav_movie + " and your favorite singer is " + fav_singer + "."
+faves = "Your favorite movie is {} and your favorite singer is {} ".format(fav_movie, fav_singer)
 print(faves)
+
+
