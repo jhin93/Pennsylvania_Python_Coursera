@@ -18,3 +18,7 @@ Print a message
 """
 name = input("What is your name?") #gets the user's name
 print("Hello " + name) #prints a message
+
+testTrue = True
+print(not testTrue)
+

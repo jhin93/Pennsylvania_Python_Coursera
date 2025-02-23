@@ -99,6 +99,14 @@ Traceback (most recent call last):
 ValueError: invalid literal for int() with base 10: 'hello'
 ```
 
+### Not operator
+```python
+testTrue = True
+print(not testTrue)
+# False
+```
+
+
 ### Input Function
 ```python
 nam = input('Who are you? ')
