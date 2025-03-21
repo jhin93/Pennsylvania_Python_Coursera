@@ -19,7 +19,7 @@ def Lab5Exc1func3(radius):
     volume_result = round(volume, 3)
     return volume_result
 
-def Lab5Exc1func4():
+def Lab5Exc1():
     radius = input("Enter the radius of the circle: ")
     result1 = Lab5Exc1func1(radius)
     print("1. Calculate the perimeter of the circle", result1)
@@ -28,4 +28,4 @@ def Lab5Exc1func4():
     result3 = Lab5Exc1func3(radius)
     print("3. Calculate the volume of the circle", result3)
 
-Lab5Exc1func4()
+Lab5Exc1()
