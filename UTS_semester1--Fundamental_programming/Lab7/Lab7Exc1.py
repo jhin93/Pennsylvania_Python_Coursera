@@ -9,6 +9,14 @@ import random
 # Define a procedure "clear" that empties the list.
 # Define a procedure "show" that shows the list
 
+# Step 2:
+# Define a function "number" that checks if a number exists in the list and returns the index of its first occurrence if so, otherwise returns -1
+# Define a function "numbers" that returns the indices of all matches of a target
+# Define a procedure "find" that reads a target value, and displays "target is at position" if found, otherwise displays "target does not exist"
+# Define a procedure "findAll" that reads a target value, and displays the indices of all matches of a target, otherwise displays "target does not exist"
+# Define a procedure "delete" that reads a target value, and deletes all matches of a target from the list
+# Define a procedure "update" that reads a target value and a new value, and updates the first occurrence of the target with the new value, otherwise displays "target does not exist"
+
 class Numbers:
     def __init__(self):
         self.list = []
@@ -24,6 +32,7 @@ class Numbers:
     def show(self):
         if len(self.list) > 0:
             print(self.list) 
+            
 
 numbers = Numbers()
 
