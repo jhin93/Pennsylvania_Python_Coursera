@@ -34,3 +34,22 @@ class Square(Polygon):
     def __str__(self):
         return f"{self.type} area = {self.area()}"
     
+# Step 3: Develop the class Triangle
+# Triangle is a subclass of Polygon
+# Triangle has two double fields: height and base
+# Triangle has one constructor that initializes these fields from parameters
+# Triangle overrides the method 'area' defined in Polygon to return the area of a triangle
+# Triangle overrides the toString() method to return: "<type> area = <area>"
+
+class Triangle(Polygon):
+    def __init__(self, height, base):
+        super().__init__("Triangle")
+        self.height = height
+        self.base = base
+
+    def area(self):
+        return 0.5 * self.height * self.base
+    
+    def __str__(self):
+        return f"{self.type} area = {self.area()}"
+    
